@@ -24,6 +24,6 @@ RUN echo 'ServerSignature Off' >> /etc/apache2/apache2.conf && \
 
 
 #ENTRYPOINT
-ADD entrypoint.sh
+ADD entrypoint.sh /
 
 CMD ["/bin/bash", "/entrypoint.sh"]
