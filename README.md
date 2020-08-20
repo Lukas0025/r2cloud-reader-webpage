@@ -3,7 +3,7 @@ r2cloud reader webpage read recorded data and show it with web interface without
  
 ## Screenshots
 
-<img src="https://raw.githubusercontent.com/Lukas0025/r2cloud-reader-webpage/master/screens/1.png" width="50%">&nbsp;<img src="https://raw.githubusercontent.com/Lukas0025/r2cloud-reader-webpage/master/screens/2.png" width="50%">&nbsp;<img src="https://raw.githubusercontent.com/Lukas0025/r2cloud-reader-webpage/master/screens/3.png" width="50%">&nbsp;<img src="https://raw.githubusercontent.com/Lukas0025/r2cloud-reader-webpage/master/screens/4.png" width="50%">&nbsp;<img src="https://raw.githubusercontent.com/Lukas0025/r2cloud-reader-webpage/master/screens/5.png" width="50%">
+<img src="https://raw.githubusercontent.com/Lukas0025/r2cloud-reader-webpage/master/screens/1.png" width="90%">&nbsp;<img src="https://raw.githubusercontent.com/Lukas0025/r2cloud-reader-webpage/master/screens/2.png" width="90%">&nbsp;<img src="https://raw.githubusercontent.com/Lukas0025/r2cloud-reader-webpage/master/screens/3.png" width="90%">&nbsp;<img src="https://raw.githubusercontent.com/Lukas0025/r2cloud-reader-webpage/master/screens/4.png" width="90%">&nbsp;<img src="https://raw.githubusercontent.com/Lukas0025/r2cloud-reader-webpage/master/screens/5.png" width="90%">
 
 
 ## Installation 
