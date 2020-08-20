@@ -16,7 +16,7 @@ r2cloud reader webpage read recorded data and show it with web interface without
                 - r2_patch - do not change!!!
                 - r2_url   - do not change!!!
                 - set other config if you want
-            - docker run -d -p 80:80 {config file patch}:/var/www/data/config.php {r2cloud data patch (~/r2cloud/data)}:/var/www/data/data lukasplevac/r2cloud-reader-webpage
+            - docker run -d -p 80:80 -v {config file patch}:/var/www/data/config.php -v {r2cloud data patch (~/r2cloud/data)}:/var/www/data/data lukasplevac/r2cloud-reader-webpage
         - Without docker
             - install apache2 with php support
             - copy config-sample.php to config.php and edit it
@@ -31,7 +31,7 @@ r2cloud reader webpage read recorded data and show it with web interface without
                 - r2_patch - do not change!!!
                 - r2_url   - do not change!!!
                 - set other config if you want
-            - docker run -d -p 80:80 {config file patch}:/var/www/data/config.php {r2cloud data patch (~/r2cloud/data)}:/var/www/data/data lukasplevac/r2cloud-reader-webpage
+            - docker run -d -p 80:80 -v {config file patch}:/var/www/data/config.php -v {r2cloud data patch (~/r2cloud/data)}:/var/www/data/data lukasplevac/r2cloud-reader-webpage
         - Without docker
             - add cron with RSYNC to sync r2cloud/data forder
             - install apache2 with php support
