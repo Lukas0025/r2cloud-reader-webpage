@@ -1,0 +1,108 @@
+<html lang="en" dir="ltr">
+   ##layout/head##
+   <body class="">
+      <div class="page">
+         <div class="flex-fill">
+            ##layout/header##
+            <div class="my-3 my-md-5">
+               <div class="map-header">
+               </div>
+               <div class="container">
+                  <div class="row row-cards">
+                     <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                           <div class="card-header">
+                              <h3 class="card-title">Observation metadata</h3>
+                           </div>
+                           <div class="card-body">
+                              <div class="media mb-5">
+                                 <img class="d-flex mr-5 rounded" width="70px" src="assets/images/sat.png" alt="Generic placeholder image">
+                                 <div class="media-body">
+                                    <h5>%%sat_name%%</h5>
+                                    <address class="text-muted small">
+                                       id: %%sat_id%%
+                                    </address>
+                                 </div>
+                              </div>
+                              <div class="row">
+                                 <div class="col-6">
+                                    <div class="h6">Start</div>
+                                    <p>%%ob_start%%</p>
+                                 </div>
+                                 <div class="col-6">
+                                    <div class="h6">End</div>
+                                    <p>%%ob_end%%</p>
+                                 </div>
+                                 <div class="col-6">
+                                    <div class="h6">Sample Rate</div>
+                                    <p>%%samp_rate%%</p>
+                                 </div>
+                                 <div class="col-6">
+                                    <div class="h6">Input Sample Rate</div>
+                                    <p>%%in_samp_rate%%</p>
+                                 </div>
+                                 <div class="col-6">
+                                   <div class="h6">Frequency</div>
+                                   <p>%%freq%%</p>
+                                 </div>
+                                 <div class="col-6">
+                                   <div class="h6">Actual Frequency</div>
+                                   <p>%%a_freq%%</p>
+                                 </div>
+                                 <div class="col-6">
+                                    <div class="h6">Decoder</div>
+                                    <p>%%decoder%%</p>
+                                 </div>
+                                 <div class="col-6">
+                                    <div class="h6">Bandwidth</div>
+                                    <p>%%bandwidth%%</p>
+                                 </div>
+                                 <div class="col-6">
+                                   <div class="h6">Decoded Packets</div>
+                                   <p>%%num_decoded%%</p>
+                                 </div>
+                                 <div class="col-6">
+                                   <div class="h6">RAW Data</div>
+                                   <p>%%raw%%</p>
+                                 </div>
+                              </div>
+                              <div class="h6">TLE</div>
+                              <p class="text-muted small">
+                                %%tle_1%%<br>%%tle_2%%
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-8 col-md-6">
+                        <div class="card">
+                           <div class="card-header">
+                              <h3 class="card-title">Decoded image</h3>
+                           </div>
+                           <div class="card-body">
+                              %%image%%
+                           </div>
+                        </div>
+                        <div class="card">
+                           <div class="card-header">
+                              <h3 class="card-title">Spectrogram</h3>
+                           </div>
+                           <div class="card-body">
+                             %%spectrogram%%
+                           </div>
+                        </div>
+                        <div class="card">
+                           <div class="card-header">
+                              <h3 class="card-title">Decoded data</h3>
+                           </div>
+                           <div class="card-body">
+                              %%data%%
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
