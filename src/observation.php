@@ -10,6 +10,7 @@
     include 'php/r2cloud_data.php';
     include 'php/time.php';
     include 'php/Hexdump.php';
+    include 'php/sat_icons.php';
     include 'config.php';
 
     $temp =     new template('observation');
@@ -49,4 +50,5 @@
         'bandwidth'       => $observation['meta']->bandwidth,
         'decoder'         => $observation['meta']->decoder,
         'spectrogram'     => isset($observation['spectrogram']) ? "<img src='{$observation['spectrogram']}'>" : "Spectrogram unavailable",
+        'icon'            => get_satellite_icon($observation['meta']->tle->line1, $satellite_icons)
     ]);

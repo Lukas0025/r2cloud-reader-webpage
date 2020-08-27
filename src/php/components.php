@@ -31,12 +31,12 @@
                     </div>';
         }
 
-        public function satellite_item($sat_id, $sat_name, $decoded, $last_pass) {
+        public function satellite_item($sat_id, $sat_name, $decoded, $last_pass, $icon) {
             $bar_color = $decoded < 30 ? "bg-red" : ($decoded < 60 ? "bg-yellow" : "bg-green");
 
             return '<tr onclick="window.location=\'observations.php?sat=' . $sat_id . '\';">
                         <td class="text-center">
-                            <img src="assets/images/sat.png" width="40px" class="d-block">
+                            <img src="' . $icon . '" width="40px" class="d-block">
                         </td>
                         <td>
                             <div>' . $sat_name . '</div>

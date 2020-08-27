@@ -10,6 +10,7 @@
     include 'php/r2cloud_data.php';
     include 'php/components.php';
     include 'php/time.php';
+    include 'php/sat_icons.php';
     include 'config.php';
 
     $temp     = new template('index');
@@ -58,7 +59,8 @@
             $score['sat_id'],
             $score['name'],
             $score['decoded'],
-            get_time_in_zone(gmdate("Y-m-d H:i:s", $score['last_pass'] / 1000), $config->timezone)
+            get_time_in_zone(gmdate("Y-m-d H:i:s", $score['last_pass'] / 1000), $config->timezone),
+            get_satellite_icon($score['name'], $satellite_icons)
         );
     }
 
